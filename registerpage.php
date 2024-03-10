@@ -11,6 +11,6 @@
     <input type="submit" name="submit" value="Register for Patient" class="btn btn-dark w-100">
 </form>
 
-<form action="registerpage.php">
+<form action="registerProviderUser.php">
     <input type="submit" style="margin: 10px;" name="submit" value="Register for Provider" class="btn btn-dark w-100">
 </form>
