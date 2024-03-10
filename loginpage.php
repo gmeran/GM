@@ -10,6 +10,7 @@ if (isset($_POST['login_user'])) {
 
     $userErr = $passErr = '';
     if (empty($userErr) && empty($passErr)) {
+        $password = md5($password);
         $patientQuery = "SELECT * FROM PatientUsers WHERE username='$username' AND pass='$password'";
         $providerQuery = "SELECT * FROM ProviderUsers WHERE username='$username' AND pass='$password'";
 

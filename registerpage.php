@@ -5,18 +5,12 @@
 <img src="img/gmlogo.png" class="w-25 mb-3" alt="">
 
 
+<h2>Choose Type Of Users that you want to Register</h2>
 
-<div class="mb-3">
-    <label for="user" class="form-label">UserName</label>
-    <input type="text" class="form-control">
-</div>
+<form action="registerPatientUser.php">
+    <input type="submit" name="submit" value="Register for Patient" class="btn btn-dark w-100">
+</form>
 
-<div class="mb-3">
-    <label for="password" class="form-label">Password</label>
-    <input type="text " class="form-control">
-</div>
-
-<div class="mb-3">
-    <label for="email" class="form-label">Email</label>
-    <input type="email" class="form-control">
-</div>
+<form action="registerpage.php">
+    <input type="submit" style="margin: 10px;" name="submit" value="Register for Provider" class="btn btn-dark w-100">
+</form>
